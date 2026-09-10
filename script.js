@@ -16,10 +16,10 @@ $("#highlights").innerHTML=highlights.map(x=>`<div class="highlight"><b>${x[0]} 
 $("#nav").innerHTML=SITE.nav.map(x=>`<a href="${x[1]}">${x[0]}</a>`).join("");
 const icons=["🚕","🏔️","📍","✈️","🚆","🌄"];
 $("#services-grid").innerHTML=SITE.services.map((x,i)=>`<article class="card"><div class="icon">${icons[i]}</div><h3>${x[0]}</h3><p>${x[1]}</p></article>`).join("");
-const fleetImages=["images/amaze.jpg","images/dzire.jpg","images/innova.jpg","images/fortuner.jpg","images/tempo.jpg","images/tempo.jpg","images/amaze.jpg","images/dzire.jpg"];
+const fleetImages=["amaze.jpg","dzire.jpg","innova.jpg","fortuner.jpg","tempo.jpg","tempo.jpg","amaze.jpg","dzire.jpg"];
 $("#fleet-grid").innerHTML=SITE.fleets.map((x,i)=>`<article class="vehicle"><div class="vehicleimg"><img src="${fleetImages[i]}" alt="${x[0]} - Bala Tours & Travels" loading="lazy"></div><div class="vehiclebody"><h3>${x[0]}</h3><p>${x[1]}</p><div class="vehiclebottom"><span>${x[2]} seats<br>${x[3]}</span><a target="_blank" href="${wa("Hi Bala Tours & Travels, I want to book a "+x[0]+".")}">WhatsApp</a></div></div></article>`).join("");
-const destinationImages=["images/manali.jpg","images/shimla.jpg","images/kasol.jpg","images/dharamshala.jpg","images/kullu.jpg","images/spiti.jpg","images/hero-mountains.jpg","images/about-road.jpg"];
-const templeImages=["images/manali.jpg","images/dharamshala.jpg","images/shimla.jpg","images/kullu.jpg","images/about-road.jpg","images/spiti.jpg","images/kasol.jpg","images/hero-mountains.jpg"];
+const destinationImages=["manali.jpg","shimla.jpg","kasol.jpg","dharamshala.jpg","kullu.jpg","spiti.jpg","hero-mountains.jpg","images/about-road.jpg"];
+const templeImages=["manali.jpg","dharamshala.jpg","shimla.jpg","kullu.jpg","about-road.jpg","spiti.jpg","kasol.jpg","hero-mountains.jpg"];
 const renderPlaces=(arr,target,images)=>$(target).innerHTML=arr.map((x,i)=>`<article class="place" style="background-image:linear-gradient(0deg,#000b,transparent 65%),url('${images[i]}')"><div><h3>${x[0]}</h3><p>${x[1]}</p></div></article>`).join("");
 renderPlaces(SITE.destinations,"#destinations-grid",destinationImages);renderPlaces(SITE.temples,"#temples-grid",templeImages);
 $("#phones").textContent=SITE.phone.join(" / ");$("#email").textContent=SITE.email;$("#address").textContent=SITE.address;
