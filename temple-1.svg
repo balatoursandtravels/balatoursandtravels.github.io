@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9e8ed"/><stop offset="1" stop-color="#f3e7d1"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#s)"/><path d="M0 470 L180 280 330 430 500 210 680 430 830 290 1010 450 1200 300V700H0Z" fill="#7f928e"/>
+<g fill="#c7b7a1"><path d="M90 500V390h130v110Z"/><path d="M250 500V340h150v160Z"/><path d="M430 500V385h135v115Z"/><path d="M600 500V325h160v175Z"/><path d="M790 500V375h145v125Z"/><path d="M960 500V345h150v155Z"/></g>
+<g fill="#8a4d3d"><path d="M70 390l85-65 85 65Z"/><path d="M235 340l90-75 90 75Z"/><path d="M415 385l82-65 82 65Z"/><path d="M580 325l100-75 100 75Z"/><path d="M775 375l82-65 82 65Z"/><path d="M945 345l90-70 90 70Z"/></g>
+<rect x="45" y="520" width="1110" height="125" rx="20" fill="#111" opacity=".78"/>
+<text x="80" y="575" font-family="Arial,sans-serif" font-size="38" font-weight="800" fill="#fff">Hidimba Devi Temple</text>
+<text x="80" y="612" font-family="Arial,sans-serif" font-size="19" fill="#ddd">Bala Tours &amp; Travels • Himachal Pradesh</text>
+</svg>

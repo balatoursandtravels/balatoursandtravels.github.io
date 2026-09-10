@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9e8ed"/><stop offset="1" stop-color="#f3e7d1"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#s)"/><path d="M0 500 L170 250 290 395 480 150 690 405 835 235 1040 430 1200 280V700H0Z" fill="#9aa8a4"/>
+<path d="M0 550 L220 330 390 505 555 285 730 505 910 345 1200 535V700H0Z" fill="#5e706d"/>
+<path d="M475 150 L430 220 480 205 520 225 560 190 590 235 530 235Z" fill="#fff"/>
+<circle cx="930" cy="145" r="62" fill="#f3d58b"/>
+<rect x="45" y="520" width="1110" height="125" rx="20" fill="#111" opacity=".78"/>
+<text x="80" y="575" font-family="Arial,sans-serif" font-size="38" font-weight="800" fill="#fff">Kasol</text>
+<text x="80" y="612" font-family="Arial,sans-serif" font-size="19" fill="#ddd">Bala Tours &amp; Travels • Himachal Pradesh</text>
+</svg>

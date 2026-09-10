@@ -1,0 +1,1 @@
+Replace this folder's placeholders with your own licensed travel/car photos if desired.

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151515"/><stop offset=".55" stop-color="#56635f"/><stop offset="1" stop-color="#c9b28e"/></linearGradient></defs>
+<rect width="1200" height="900" fill="url(#a)"/><path d="M0 610L220 330 410 560 650 210 900 590 1040 380 1200 560V900H0Z" fill="#253b36" opacity=".85"/>
+<path d="M650 210L585 315 650 290 705 320 760 260 815 330 760 330Z" fill="#eee"/>
+<rect x="70" y="70" width="520" height="190" rx="28" fill="#fff" opacity=".92"/>
+<text x="105" y="145" font-family="Arial,sans-serif" font-size="52" font-weight="900" fill="#111">BALA TOURS</text>
+<text x="105" y="195" font-family="Arial,sans-serif" font-size="28" letter-spacing="4" fill="#555">&amp; TRAVELS</text>
+<text x="105" y="232" font-family="Arial,sans-serif" font-size="18" fill="#777">TAXI • TOURS • HIMACHAL PRADESH</text></svg>

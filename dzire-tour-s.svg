@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dceaf3"/><stop offset="1" stop-color="#f7f4ee"/></linearGradient>
+ <linearGradient id="road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#777"/><stop offset="1" stop-color="#252525"/></linearGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#f4f4f4"/><stop offset="1" stop-color="#cfcfcf"/></linearGradient>
+</defs>
+<rect width="1200" height="700" fill="url(#sky)"/>
+<path d="M0 390 L170 250 285 360 430 190 590 365 770 225 930 360 1070 245 1200 360V500H0Z" fill="#b9c8c8"/>
+<path d="M0 430 L220 300 360 410 520 275 710 430 875 305 1040 415 1200 300V520H0Z" fill="#879a96"/>
+<rect y="500" width="1200" height="200" fill="url(#road)"/>
+<path d="M0 610 Q300 560 600 600 T1200 585" fill="none" stroke="#f0d28a" stroke-width="10" stroke-dasharray="70 45"/>
+<g transform="translate(145 325)">
+ <path d="M55 190 Q80 145 170 137 L260 70 Q295 40 360 40 H530 Q580 42 620 78 L715 150 Q760 158 790 205 L805 265 H35Z" fill="url(#body)" stroke="#222" stroke-width="7"/>
+ <path d="M260 72 L350 52 H520 Q555 55 590 84 L650 140 H220Z" fill="#222" opacity=".92"/>
+ <path d="M285 72 L360 58 H430 V137 H230Z" fill="#9fb5c0"/>
+ <path d="M445 58 H515 Q548 62 577 90 L620 137 H445Z" fill="#a9c0ca"/>
+ <path d="M220 145 H655" stroke="#b5b5b5" stroke-width="8"/>
+ <path d="M700 165 Q742 168 765 200" fill="none" stroke="#777" stroke-width="7"/>
+ <circle cx="205" cy="268" r="66" fill="#171717"/><circle cx="205" cy="268" r="35" fill="#c9c9c9"/><circle cx="205" cy="268" r="13" fill="#777"/>
+ <circle cx="650" cy="268" r="66" fill="#171717"/><circle cx="650" cy="268" r="35" fill="#c9c9c9"/><circle cx="650" cy="268" r="13" fill="#777"/>
+ <rect x="70" y="170" width="85" height="45" rx="20" fill="#d7e7ef"/><rect x="720" y="175" width="55" height="40" rx="12" fill="#f1e3b7"/>
+ <path d="M95 205 H745" stroke="#fff" stroke-width="5" opacity=".8"/>
+</g>
+<rect x="55" y="55" width="440" height="110" rx="24" fill="#fff" opacity=".92"/>
+<text x="85" y="105" font-family="Arial,sans-serif" font-size="34" font-weight="800" fill="#111">Maruti Suzuki Dzire Tour S 2022</text>
+<text x="85" y="137" font-family="Arial,sans-serif" font-size="20" fill="#666">White • Comfortable Fleet Sedan</text>
+</svg>
